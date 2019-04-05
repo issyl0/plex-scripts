@@ -17,8 +17,8 @@ all_libraries.xpath('//Directory/@key').each do |id|
   get_xml("/library/sections/#{id}/refresh")
 end
 
-# Don't know how long Plex takes, so sleep for a while so that when 
-# people think the task is finished, there's a chance it actually is. 
+# Don't know how long Plex takes, so sleep for a while so that when
+# people think the task is finished, there's a chance it actually is.
 sleep(5)
 
-puts "Syncing finished."
+puts 'Syncing finished.'
