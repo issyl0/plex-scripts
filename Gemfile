@@ -6,4 +6,7 @@ gem 'nokogiri'
 group :development do
   gem 'pry'
   gem 'rubocop'
+  gem 'sorbet'
 end
+
+gem 'sorbet-runtime'

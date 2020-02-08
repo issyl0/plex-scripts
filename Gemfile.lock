@@ -37,6 +37,10 @@ GEM
       ruby-progressbar (~> 1.7)
       unicode-display_width (>= 1.4.0, < 1.6)
     ruby-progressbar (1.10.0)
+    sorbet (0.5.5357)
+      sorbet-static (= 0.5.5357)
+    sorbet-runtime (0.5.5357)
+    sorbet-static (0.5.5357-universal-darwin-14)
     unf (0.1.4)
       unf_ext
     unf_ext (0.0.7.5)
@@ -50,6 +54,8 @@ DEPENDENCIES
   pry
   rest-client
   rubocop
+  sorbet
+  sorbet-runtime
 
 BUNDLED WITH
    1.17.2
