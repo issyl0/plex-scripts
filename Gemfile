@@ -1,12 +1,11 @@
 source 'https://rubygems.org'
 
-gem 'rest-client'
 gem 'nokogiri'
+gem 'rest-client'
+gem 'sorbet-runtime'
 
 group :development do
   gem 'pry'
   gem 'rubocop'
   gem 'sorbet'
 end
-
-gem 'sorbet-runtime'
