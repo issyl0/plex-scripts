@@ -1,0 +1,12 @@
+name: Sorbet
+on: push
+jobs:
+  srb:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - uses: actions/setup-ruby@v1
+
+      - run: bundle install
+      - run: bundle exec srb tc

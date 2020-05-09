@@ -58,6 +58,3 @@ DEPENDENCIES
   rubocop
   sorbet
   sorbet-runtime
-
-BUNDLED WITH
-   1.17.2
